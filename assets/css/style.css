@@ -1,5 +1,6 @@
 body {
     width: 500px;
+    height: 600px;
 }
 
 #titlePlate {
@@ -14,6 +15,33 @@ body {
     font-size: 19px;
 }
 
-#titleArea{
+#titleArea {
     margin: 5px;
+}
+
+#instruction {
+    height: 250px;
+    width: 250px;
+    background-color: #fbe5cc;
+    margin: 0 5px 5px 5px;
+}
+
+#mainBox1 {
+    height: 65px;
+    width: 170px;
+    margin: 0 5px 5px 5px;
+}
+
+.ranNum {
+    width: 125px;
+    height: 65px;
+    float: left;
+    background-color: #5cc882;
+}
+
+.winLose {
+    width: 40px;
+    height: 65px;
+    float: right;
+    background-color: #4afcfe;
 }
