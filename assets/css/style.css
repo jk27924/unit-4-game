@@ -1,3 +1,17 @@
+body {
+    width: 500px;
+}
 
+#titlePlate {
+    width: 150px;
+    height: 50px;
+    background-color: #c97027;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+}
 
 
