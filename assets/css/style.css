@@ -65,7 +65,7 @@ body {
 .box {
     width: 90px;
     height: 90px;
-    background-color: blue;
+    background-color: white;
     margin: 0 5px 0 5px;
     float: left;
 }
