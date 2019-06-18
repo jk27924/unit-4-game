@@ -87,6 +87,7 @@ body {
     width: 400px;
     height: 40%;
     margin: 0 10px 10px 0;
+    color: white;
     vertical-align: middle;
     font-size: 25px;
     line-height: 40px;
@@ -101,5 +102,11 @@ body {
     width: 400px;
     height: 150%;
     margin: 0 10px 10px 0;
+    color: white;
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+#totalScore {
     color: white;
 }
