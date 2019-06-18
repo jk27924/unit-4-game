@@ -59,3 +59,23 @@ body {
     margin: 0 5px 0 5px;
     float: left;
 }
+
+#scoreBoard {
+    width: 400px;
+    height: 100px;
+    margin: 0 10px 10px 10px;
+}
+
+.score {
+    background-color: #abafaf;
+    width: 400px;
+    height: 40%;
+    margin: 0 10px 10px 0;
+}
+
+.scoreDisplay {
+    background-color: #abafaf;
+    width: 400px;
+    height: 150%;
+    margin: 0 10px 10px 0;
+}
