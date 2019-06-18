@@ -50,6 +50,12 @@ body {
     background-color: #4afcfe;
 }
 
+.winLossBox p {
+    vertical-align: middle;
+    height: 57px;
+    padding: 5px 0 0 5px;
+}
+
 #gameButton {
     width: 420px;
     height: 100px;
