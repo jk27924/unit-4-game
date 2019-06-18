@@ -70,6 +70,11 @@ body {
     float: left;
 }
 
+.box input {
+    width: 90px;
+    height: 90px;
+}
+
 #scoreBoard {
     width: 400px;
     height: 100px;
