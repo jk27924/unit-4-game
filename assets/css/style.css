@@ -26,6 +26,10 @@ body {
     margin: 0 10px 10px 10px;
 }
 
+#instruction p {
+    padding: 10px 10px 0 10px;
+    }
+
 #mainBox1 {
     height: 130px;
     width: 400px;
