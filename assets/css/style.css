@@ -20,10 +20,10 @@ body {
 }
 
 #instruction {
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 400px;
     background-color: #fbe5cc;
-    margin: 0 5px 5px 5px;
+    margin: 0 10px 10px 10px;
 }
 
 #mainBox1 {
