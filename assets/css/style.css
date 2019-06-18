@@ -41,7 +41,21 @@ body {
 
 .winLossBox {
     width: 100px;
-    height: 130px;
+    height: 120px;
     float: right;
     background-color: #4afcfe;
+}
+
+#gameButton {
+    width: 420px;
+    height: 100px;
+    margin: 0 10px 0 10px;
+}
+
+.box {
+    width: 90px;
+    height: 90px;
+    background-color: blue;
+    margin: 0 5px 0 5px;
+    float: left;
 }
