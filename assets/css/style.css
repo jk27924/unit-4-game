@@ -32,16 +32,16 @@ body {
     margin: 0 10px 10px 10px;
 }
 
-.ranNum {
-    width: 125px;
-    height: 65px;
+.ranNumBox {
+    width: 280px;
+    height: 120px;
     float: left;
     background-color: #5cc882;
 }
 
-.winLose {
-    width: 40px;
-    height: 65px;
+.winLossBox {
+    width: 100px;
+    height: 130px;
     float: right;
     background-color: #4afcfe;
 }
