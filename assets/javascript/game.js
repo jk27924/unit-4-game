@@ -66,6 +66,7 @@ $(document).ready(function(){
             alert("You won!");
             wins++;
             $('#wins').text(wins);
+            reset();
         }
 
 
@@ -74,11 +75,20 @@ $(document).ready(function(){
             alert("You lost!");
             losses++;
             $('#losses').text(losses);
+            reset();
         }
 
 
         // resets the game
         function reset() {
+            ranNum = Math.floor(Math.random() * (120 - 19)) + 19;
+            $('#wins').text(wins);
+            $('#losses').text(losses);
+            $('.ranNumBox').text(ranNum);
+            $('#totalScore').text(total);
+        
+            totalScore=0;
+         
             
         }
 
