@@ -19,13 +19,18 @@ $(document).ready(function(){
     // displays random number on the DOM
     $('.ranNumBox').text(ranNum);
 
-    function crystalPoint() {
+    function crystalPoint(id) {
         var crystalValue = Math.floor(Math.random() * (12 - 1)) + 1;
-        $('#red').attr("value",crystalValue);
+        $(id).attr("value",crystalValue);
     };
 
-    crystalPoint("#red")
-    console.log("#red");
+    crystalPoint("#red");
+
+    // declaring variables
+    var total = 0; 
+    var wins = 0;
+    var losses = 0;
+    var totalScore = 0;
 
     
 
