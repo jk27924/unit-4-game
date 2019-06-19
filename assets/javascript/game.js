@@ -58,10 +58,14 @@ $(document).ready(function(){
 
         function winner() {
             alert("You won!");
+            wins++;
+            $('#wins').text(wins);
         }
 
         function loser() {
             alert("You lost!");
+            losses++;
+            $('#losses').text(losses);
         }
 
 
