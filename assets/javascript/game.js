@@ -16,9 +16,12 @@ $(document).ready(function(){
     var ranNum = Math.floor(Math.random() * (120 - 19)) + 19;
     console.log(ranNum);
 
+
     // displays random number on the DOM
     $('.ranNumBox').text(ranNum);
 
+
+    // creates random number from 1 to 12 for each crystal when clicked
     function crystalPoint(id) {
         var crystalValue = Math.floor(Math.random() * (12 - 1)) + 1;
         $(id).attr("value",crystalValue);
@@ -26,11 +29,16 @@ $(document).ready(function(){
 
     crystalPoint("#red");
 
+
     // declaring variables
     var total = 0; 
     var wins = 0;
     var losses = 0;
     var totalScore = 0;
+
+
+    // adds up scores from clicking each crystal repeatedly
+
 
     
 
