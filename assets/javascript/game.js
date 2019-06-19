@@ -19,6 +19,14 @@ $(document).ready(function(){
     // displays random number on the DOM
     $('.ranNumBox').text(ranNum);
 
+    function crystalPoint() {
+        var crystalValue = Math.floor(Math.random() * (12 - 1)) + 1;
+        $('#red').attr("value",crystalValue);
+    };
+
+    crystalPoint("#red")
+    console.log("#red");
+
     
 
 
