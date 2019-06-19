@@ -44,6 +44,7 @@ $(document).ready(function(){
     // adds up scores from clicking each crystal repeatedly
     $(".crystalButton").click(function() {
         var crystalValue = $(this).val();
+        crystalValue = parseFloat(crystalValue);
         totalScore = totalScore + crystalValue;
         console.log(totalScore);
 
