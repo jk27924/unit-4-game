@@ -28,6 +28,10 @@ $(document).ready(function(){
     };
 
     crystalPoint("#red");
+    crystalPoint("#blue");
+    crystalPoint("#yellow");
+    crystalPoint("#green");
+
 
 
     // declaring variables
@@ -38,6 +42,16 @@ $(document).ready(function(){
 
 
     // adds up scores from clicking each crystal repeatedly
+    $(".crystalButton").click(function() {
+        var crystalValue = $(this).val();
+        totalScore = totalScore + crystalValue;
+        console.log(totalScore);
+
+        $('#totalScore').text(totalScore);
+
+
+
+    })
 
 
     
