@@ -12,6 +12,7 @@
 
 $(document).ready(function(){
 
+    
     // creates number between 19 and 120 randomly
     var ranNum = Math.floor(Math.random() * (120 - 19)) + 19;
     console.log(ranNum);
@@ -61,6 +62,7 @@ $(document).ready(function(){
             console.log(ranNum);
         }
 
+
         // updates wins
         function winner() {
             alert("You won!");
@@ -97,20 +99,8 @@ $(document).ready(function(){
             crystalPoint("#blue");
             crystalPoint("#yellow");
             crystalPoint("#green");
-         
-            
         }
 
-
     })
-
-
-    
-
-
-
-
-
-
 
 });

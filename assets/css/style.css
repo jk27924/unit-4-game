@@ -30,7 +30,7 @@ body {
 
 #instruction p {
     padding: 7px 10px 0 10px;
-    }
+}
 
 #mainBox1 {
     height: 130px;
@@ -112,4 +112,5 @@ body {
 
 #totalScore {
     color: white;
+    padding-left: 10px;
 }
