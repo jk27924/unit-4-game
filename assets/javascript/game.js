@@ -50,6 +50,20 @@ $(document).ready(function(){
 
         $('#totalScore').text(totalScore);
 
+        if (totalScore ==ranNum) {
+            winner();
+        } else if (totalScore > ranNum) {
+            loser();
+        }
+
+        function winner() {
+            alert("You won!");
+        }
+
+        function loser() {
+            alert("You lost!");
+        }
+
 
 
     })
