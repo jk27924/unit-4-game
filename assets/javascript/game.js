@@ -88,6 +88,15 @@ $(document).ready(function(){
             $('#totalScore').text(total);
         
             totalScore=0;
+
+            function crystalPoint(id) {
+                var crystalValue = Math.floor(Math.random() * (12 - 1)) + 1;
+                $(id).attr("value",crystalValue);
+            };
+            crystalPoint("#red");
+            crystalPoint("#blue");
+            crystalPoint("#yellow");
+            crystalPoint("#green");
          
             
         }
