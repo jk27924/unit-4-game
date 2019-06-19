@@ -16,6 +16,10 @@ $(document).ready(function(){
     var ranNum = Math.floor(Math.random() * (120 - 19)) + 19;
     console.log(ranNum);
 
+    // displays random number on the DOM
+    $('.ranNumBox').text(ranNum);
+
+    
 
 
 
