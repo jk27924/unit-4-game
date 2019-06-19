@@ -42,11 +42,13 @@ body {
     height: 120px;
     float: left;
     background-color: #dbd5ce;
+    font-size: 50px;
+    padding: 10px 0 0 10px;
 }
 
 .winLossBox {
     width: 100px;
-    height: 120px;
+    height: 130px;
     float: right;
     background-color: #dbd5ce;
 }
