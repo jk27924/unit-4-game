@@ -33,7 +33,6 @@ $(document).ready(function(){
     crystalPoint("#green");
 
 
-
     // declaring variables
     var total = 0; 
     var wins = 0;
@@ -42,6 +41,7 @@ $(document).ready(function(){
 
 
     // adds up scores from clicking each crystal repeatedly
+    // (parseFloat helps the numbers not to add up as strings!!!)
     $(".crystalButton").click(function() {
         var crystalValue = $(this).val();
         crystalValue = parseFloat(crystalValue);
@@ -52,22 +52,35 @@ $(document).ready(function(){
 
         if (totalScore ==ranNum) {
             winner();
-        } else if (totalScore > ranNum) {
+            console.log(totalScore);
+            console.log(ranNum);
+        } 
+        else if (totalScore > ranNum) {
             loser();
+            console.log(totalScore);
+            console.log(ranNum);
         }
 
+        // updates wins
         function winner() {
             alert("You won!");
             wins++;
             $('#wins').text(wins);
         }
 
+
+        // updates losses
         function loser() {
             alert("You lost!");
             losses++;
             $('#losses').text(losses);
         }
 
+
+        // resets the game
+        function reset() {
+            
+        }
 
 
     })
