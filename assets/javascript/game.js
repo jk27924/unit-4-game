@@ -8,3 +8,19 @@
     // a. IF random number === total score, you WIN
     // b. ELSE IF random number < total score, you LOSE
 // 6. WINS and LOSSES should update as soon as the game resets
+
+
+$(document).ready(function(){
+
+    // creates number between 19 and 120 randomly
+    var ranNum = Math.floor(Math.random() * (120 - 19)) + 19;
+    console.log(ranNum);
+
+
+
+
+
+
+
+
+});
